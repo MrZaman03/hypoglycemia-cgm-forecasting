@@ -1,6 +1,6 @@
 # Anticipating Hypoglycemia with CGM Forecasters
 
-Code for the paper **"Anticipating Hypoglycemia with CGM Forecasters: Alarm Thresholds, Hypoglycemia-Weighted Training, and What RMSE Hides — A Multi-Study Evaluation on DiaData"** (Md Rasheduzzaman, [supervisor]; Shanghai University of Engineering Science).
+Code for the paper **"Anticipating Hypoglycemia with CGM Forecasters: Alarm Thresholds, Hypoglycemia-Weighted Training, and What RMSE Hides — A Multi-Study Evaluation on DiaData"** (Md Rasheduzzaman; Shanghai University of Engineering Science).
 
 The study asks why CGM glucose forecasters with good RMSE rarely anticipate hypoglycemic episodes at the default 70 mg/dL alarm threshold, and how much a validation-tuned alarm threshold, a hypoglycemia-weighted loss, and a simple trend rule each contribute. It is a retrospective algorithmic evaluation, not a clinically validated alert system.
 
