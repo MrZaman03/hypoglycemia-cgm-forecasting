@@ -1,0 +1,4 @@
+A minus B,0.10 h/day,0.20 h/day,0.40 h/day
+LSTM (unweighted)  minus  Trend rule (tuned on val),"+5.1 [+2.7, +7.3]","-3.1 [-6.1, -0.4]","-10.6 [-12.5, -8.4]"
+LSTM W=10  minus  Trend rule (tuned on val),"+14.0 [+12.0, +16.0]","+13.1 [+10.7, +15.0]","+6.4 [+5.3, +7.7]"
+LSTM W=10  minus  LSTM (unweighted),"+8.9 [+6.7, +11.1]","+16.2 [+14.0, +18.0]","+17.0 [+15.0, +19.0]"

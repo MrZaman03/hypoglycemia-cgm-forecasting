@@ -1,0 +1,4 @@
+A minus B,0.05/day,0.10/day,0.25/day
+LSTM W=10  minus  LSTM (unweighted),"+4.6 [+3.1, +6.2]","+5.4 [+3.1, +7.6]","+10.6 [+8.0, +13.1]"
+"LSTM (unweighted)  minus  Trend (k=3, damp=0.25, tuned on val)","+5.9 [+3.3, +9.4]","+6.5 [+2.0, +11.1]","-7.9 [-15.5, -0.3]"
+"LSTM W=10  minus  Trend (k=3, damp=0.25, tuned on val)","+10.5 [+7.6, +14.2]","+11.9 [+7.7, +16.4]","+2.7 [-4.3, +10.0]"

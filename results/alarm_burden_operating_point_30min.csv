@@ -1,0 +1,6 @@
+Model,theta,detected %,FA/day (lenient),FA/day (strict),alarm episodes/day,% time in alarm,hours in alarm/day,median warning (min)
+LSTM (unweighted),78,51.0,0.48,0.51,1.05,1.01,0.24,20.0
+LSTM W=10,70,61.8,0.46,0.47,1.24,0.84,0.2,15.0
+Ridge,74,41.7,0.49,0.5,1.0,0.59,0.14,15.0
+Reactive rule (last reading),72,13.2,0.36,0.36,0.85,0.43,0.1,20.0
+Trend rule (tuned on val),69,55.9,0.49,0.5,1.34,0.97,0.23,15.0

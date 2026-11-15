@@ -1,0 +1,6 @@
+horizon,Comparison,Δ Detected ≥10 min (points),Δ Detected ≥15 min (points),Δ False alarms / day
+15,LSTM + hypo loss (proposed)  minus  LSTM (baseline),"+27.8 [+26.4, +29.2]","+15.4 [+14.4, +16.3]","+0.23 [+0.20, +0.27]"
+30,LSTM + hypo loss (proposed)  minus  LSTM (baseline),"+52.1 [+49.9, +54.2]","+37.9 [+35.8, +39.9]","+0.43 [+0.37, +0.49]"
+30,LSTM + hypo loss (W=5)  minus  Ridge,"+24.5 [+19.7, +29.4]","+19.8 [+16.1, +23.5]","+0.03 [-0.02, +0.08]"
+30,LSTM + hypo loss (proposed)  minus  Ridge,"+34.4 [+30.7, +38.3]","+27.6 [+24.5, +30.8]","+0.15 [+0.10, +0.20]"
+60,LSTM + hypo loss (proposed)  minus  LSTM (baseline),"+15.8 [+13.5, +18.3]","+13.7 [+11.7, +15.9]","+0.11 [+0.09, +0.14]"

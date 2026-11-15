@@ -1,0 +1,5 @@
+Method,Events,Detected_%,Detected_15min_%,Median_warning_min,FalseAlarms_per_day,Alarm_precision_%
+Persistence,4527.0,0.0,0.0,,0.0,0.0
+Ridge,4527.0,26.44,9.79,10.0,0.28,64.98
+LSTM (baseline),4527.0,32.07,11.7,10.0,0.19,77.16
+LSTM + hypo loss (proposed),4527.0,59.87,27.09,10.0,0.42,67.64
