@@ -1,0 +1,9 @@
+# data and large artifacts: never commit
+*.csv.gz
+MDB_*.csv
+results/preds/
+results_quick/
+*.pt
+*.pth
+.ipynb_checkpoints/
+__pycache__/
